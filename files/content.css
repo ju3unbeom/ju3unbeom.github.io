@@ -1,0 +1,163 @@
+/******************************************** 사이트 제작시 정보 변경 주의사항 *******************************************/
+
+/*  1. board 이슈&토크 박스          |  .cb_comment1 .fr      : width 값 변경(사이트 가로 사이즈에 맞게)
+                                   .cb_comment2 .fr      : width 값 변경(사이트 가로 사이즈에 맞게)
+
+    2. board(포토/무비) 리스트  |  .fixed_img_col li     : width 값 변경(사이트 가로 사이즈에 맞게)
+						  
+	3. FAQ(고객센터) 검색 박스  |  .srch_type0b .fl      : width 값 변경(사이트 가로 사이즈에 맞게)
+	
+	4. 프로필 박스              |  .tbl_box0b .f_box .fl : width 값 변경(사이트 가로 사이즈에 맞게)
+	                               .tbl_box0b .f_box .fr : width 값 변경(사이트 가로 사이즈에 맞게)
+
+	5. SNS 이슈&토크 박스            |  .cb_box0              : width 값 변경(사이트 가로 사이즈에 맞게)
+
+/***************************************************** sub page 설정 ******************************************************/
+
+
+/* sub 박스 */
+.open_mcard_area_layer {clear:both; padding:20px; border-top:1px solid #f7f7f7}
+
+.sub_mcard_area_layer {clear:both; padding:20px;}
+.sub_mcard_area_pad1 {padding-top:40px;}
+
+.sub_mcard_area1 {}
+
+
+/*popup 설정 */
+.pop_mcard_layer1 {position:fixed; width:100%; height:260px; top:50%; left:50%; z-index:100; margin:-130px 0 0 -50%;}
+.pop_mcard_layer1 .pop_mcard_area1 {overflow:hidden; text-align:center; padding:0 20px 0 20px;}
+.pop_mcard_layer1 .pop_mcard_area1 .area_pic1 {margin:0 auto; width:70px; height:70px; background-image:url('/mcard/img/icon2.png'); background-repeat:no-repeat; background-size:70px 70px;}
+.pop_mcard_layer1 .pop_mcard_area1 .area1 {margin:20px 0 0; font-size:13px; line-height:18px; color:#444444;}
+.pop_mcard_layer1 .pop_mcard_area1 .area1 li {margin:0 0 6px;}
+.pop_mcard_layer1 .pop_mcard_area1 .area1 li:last-child {margin-bottom:0;}
+.pop_mcard_layer1 .pop_mcard_area1 .area1 li.text1 {margin:0 0 11px; font-size:16px; line-height:18px; font-family:'NanumGothicBold'; color:#222222;}
+.pop_mcard_layer1 .pop_mcard_area1 .area_btn1 {padding:27px 0 0;}
+
+
+/* popup 배경 */
+.pop_mcard_bg2 {position:fixed; width:100%; height:100%; top:0; left:0; background-color:rgba(255,255,255,1.0); z-index:99;}
+
+
+/* 로딩화면 */
+.preloader {
+display:inline;
+z-index: 199;
+position: fixed;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background-color: #ffffff;
+transition: opacity .65s ease;
+}
+.loading-bar {
+width: 12%;
+height: 3px;
+background-color: #ffffff; /* 로딩바 색 */
+transition: width 1000ms cubic-bezier(.25, 0, 0, 1); 
+}
+.loading-loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 200;
+    width: 120px;
+    height: 120px;
+    margin: -60px 0 0 -60px;
+    border: 5px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 5px solid #3498db;
+    width: 105px;
+    height: 105px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+/************************************************* 모바일카드 공통 설정 *************************************************/
+
+
+/* 배경음악 */
+.bgm_mcard_area {position:absolute; z-index:1; overflow:hidden; margin:10px 0 0 10px}
+.bgm_mcard_area li {float:left; overflow:hidden; width:21px; height:21px; list-style-position:outside; list-style-type:none;}
+.bgm_mcard_area li.track_area {display:none;}
+.bgm_mcard_area li.on {background-image:url('/mcard/img/icon_all.png'); background-repeat:no-repeat; background-size:200px 200px; background-position:0 0; cursor:pointer;}
+.bgm_mcard_area li.off {background-image:url('/mcard/img/icon_all.png'); background-repeat:no-repeat; background-size:200px 200px; background-position:-21px 0; cursor:pointer;}
+.bgm_mcard_area ul.color_w li.on {background-position:-42px 0;}
+.bgm_mcard_area ul.color_w li.off {background-position:-63px 0;}
+
+
+/* 방명록 */
+.comment_mcard_area {overflow:hidden; border:1px solid #dddddd; background-color:#ffffff;}
+.comment_mcard_area .box1 {overflow:hidden; padding:2px 12px 10px 12px;}
+.comment_mcard_area .box1 .box1a {overflow:hidden; border-bottom:1px solid #ededed;}
+.comment_mcard_area .box2 {overflow:hidden; border-top:1px solid #ededed;}
+.comment_mcard_area .box2 .fl {float:left; padding:9px 0 0 13px; font-size:12px; line-height:14px; color:#aaaaaa;}
+.comment_mcard_area .box2 .fr {float:right;}
+.comment_mcard_area_text {overflow:hidden; clear:both; width:100%;}
+.comment_mcard_area_text dl {overflow:hidden; margin:0 0 5px;}
+.comment_mcard_area_text dt {float:left; padding:2px 0 0; font-size:13px; line-height:15px; color:#555555; font-weight:bold;}
+.comment_mcard_area_text dt em {margin:0 0 0 5px; font-size:12px; color:#999999; font-family:'notokr-regular';}
+.comment_mcard_area_text dd {float:right; width:20px; height:20px; background-image:url('/mcard/img/icon_all.png'); background-repeat:no-repeat; background-size:200px 200px; background-position:0 -120px; cursor:pointer;}
+.comment_mcard_area_text .option_area {position:absolute; z-index:1; overflow:hidden; right:17px; margin:23px 0 0; display:none;}
+.comment_mcard_area .box3 {overflow:hidden; font-size:13px; line-height:16px; color:#444444; font-family:'notokr-medium';}
+.comment_mcard_area_text > ul > li {overflow:hidden; padding:13px 0 14px; font-size:14px; line-height:19px;  border-bottom:1px solid #ededed;}
+.comment_mcard_area_text li ul {overflow:hidden; padding:3px 0 0;}
+.comment_mcard_area_text li ul li {float:left; padding:0 0 0 11px; font-size:12px; line-height:15px; color:#999999; background-image:url('/korean/m/img/line_sub1.png'); background-position:5px center; background-size:1px 10px; background-repeat:no-repeat;}
+.comment_mcard_area_text li ul li:first-child {padding-left:0; background-image:none;}
+.comment_mcard_area_text li ul li .text1 {overflow:hidden; font-size:12px; line-height:15px; color:#666666;}
+
+
+/* SNS 퍼가기 */
+.sns_mcard {overflow:hidden; clear:both; text-align:center; height:30px;}
+.sns_mcard > ul > li {margin-right:7px;}
+.sns_mcard > ul > li,
+.sns_mcard > ul > li a {display:inline-block;}
+.sns_mcard > ul > li a {width:30px; height:30px; background-image:url('/mcard/img/icon_all.png'); background-repeat:no-repeat; background-size:200px 200px; background-position:0 -150px; cursor:pointer;}
+.sns_mcard li.btn_kakaotalk a  {background-position:0 -150px;}
+.sns_mcard li.btn_kakaostory a {background-position:-30px -150px;}
+.sns_mcard li.btn_facebook a   {background-position:-60px -150px;}
+.sns_mcard li.btn_twitter a    {background-position:-90px -150px;}
+.sns_mcard li.btn_band a       {background-position:-120px -150px;}
+.sns_mcard > ul > li:last-child {margin-right:0;}
+
+
+
+/***************************************************** footer 설정 *****************************************************/
+
+
+.footer_mcard_layer {overflow:hidden; clear:both;}
+.footer_mcard_layer ul {}
+.footer_mcard_layer .btn_area {position:absolute; z-index:1; right:0; overflow:hidden; width:30px; height:30px; cursor:pointer;}
+.footer_mcard_layer ul li.logo_area {overflow:hidden; height:50px; background-image:url('/mcard/img/mark.png'), url('/mcard/img/mark_bg.png'); background-repeat:no-repeat, repeat-x; background-position:center center, left top; background-size:auto 50px, 100% 50px; cursor:pointer;}
+
+
+/************************************************* Page(페이지) 공통 설정 *************************************************/
+
+
+/* Page 타이틀바(bar) 타입 */
+.bar_mcard_type1 {overflow:hidden; clear:both; height:40px; border-bottom:1px solid #dddddd}
+.bar_mcard_type1 .fl {padding:11px 0 0 15px;}
+.bar_mcard_type1 .fl h1 {font-size:15px; line-height:17px; font-family:'notokr-bold'; color:#111111;}
+.bar_mcard_type1 .fr {}
+.bar_mcard_type1 .btn_area1 {padding:10px 11px 10px 10px; cursor:pointer}
+.bar_mcard_type1 .btn_area1 p {width:20px; height:20px; padding:0; margin:0; background-image:url('/mcard/img/icon_all.png'); background-repeat:no-repeat; background-size:200px 200px; background-position:-20px -110px;}
+.bar_mcard_type1_fixed {position:fixed; top:0; left:0; z-index:10;}
+.bar_mcard_type1_area  {overflow:hidden; clear:both; height:40px;}
+
+
+/* board 비밀번호 */
+.pass_mcard_area1 {overflow:hidden; width:245px; border:1px solid #dddddd; margin:0 auto;}
+.pass_mcard_area1 .box1 {overflow:hidden; padding:10px 0 10px 12px;}
+.pass_mcard_area1 .box1 input {width:120px;}

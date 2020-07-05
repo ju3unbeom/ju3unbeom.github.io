@@ -1,0 +1,135 @@
+/*************************************************** main page ���� ***************************************************/
+
+.mcard_skin {background-color:#ffffff;}
+.mcard_skin .cover_layer {overflow:hidden;}
+.mcard_skin .cover_layer .cover_group {position:absolute; z-index:10; top:0px; left:0; width:20px; height:20px;}
+.mcard_skin .cover_layer .d-day_area {position:absolute; z-index:11; top:7px; left:39px; font-weight:300; font-size:24px; line-height:100%; letter-spacing:-0.5px; color:rgba(34,34,34,0.55);}
+.mcard_skin .cover_layer .d-day_area.color_w {color:rgba(255,255,255,0.65);}
+.mcard_skin .cover_layer .image_area {width:100%; height:176vw; background-color:#f5f5f5; background-repeat:no-repeat, no-repeat, no-repeat; background-position:left top, left top, center top; background-size:100% 176vw, 100% 176vw, auto 118.5vw}
+.mcard_skin .cover_layer ul {}
+.mcard_skin .cover_layer ul li.title_area {overflow:hidden; height:9px; margin:35px 0 11px; background-image:url('/mcard/img/wed_skin1/cover_couple.png'); background-repeat:no-repeat; background-position:center top; background-size:auto 9px;}
+.mcard_skin .cover_layer ul li.couple_area {overflow:hidden; text-align:center; padding:127.5vw 30px 0; font-family:'NanumMyeongjoBold'; font-size:23px; line-height:100%; color:rgba(34,34,34,0.65);}
+.mcard_skin .cover_layer ul li.couple_area .message_area {padding-top:20px; font-size:17px; line-height:23px; color:rgba(34,34,34,0.6);}
+.mcard_skin .cover_layer ul li.couple_area.color_w {color:rgba(255,255,255,0.80);}
+.mcard_skin .cover_layer ul li.couple_area.color_w .message_area {color:rgba(255,255,255,0.65);}
+.mcard_skin .cover_layer ul li.place_area {overflow:hidden; text-align:center; padding:3px 30px 50px; font-family:'NanumMyeongjoExtraBold'; font-size:13px; line-height:15px; color:#888888; font-weight:bold;}
+
+/*********/
+
+.mcard_skin .invite_layer {overflow:hidden; padding:20px 30px 25px; background-color:#f5f5f5;}
+.mcard_skin .invite_layer ul {}
+.mcard_skin .invite_layer ul li.title_area {overflow:hidden; height:14px; margin:0 0 20px; background-image:url('/mcard/img/wed_skin1/invite_title.png'); background-repeat:no-repeat; background-position:center top; background-size:auto 14px;}
+.mcard_skin .invite_layer ul li.words_area {overflow:hidden; margin:0 0 25px; text-align:center; font-family:'NanumMyeongjoBold'; font-size:14px; line-height:25px; color:#666666;}
+.mcard_skin .invite_layer ul li.family_area {overflow:hidden; text-align:center; padding:0; margin:0; font-weight:500; font-size:12px; line-height:24px; color:#808080; border-top:#d7d7d7 0px solid; border-bottom:#d7d7d7 0px solid;}
+.mcard_skin .invite_layer ul li.family_area .groom {color:#4b4b4b; font-size:15px; font-weight:700;}
+.mcard_skin .invite_layer ul li.family_area .groom_father {color:#4b4b4b; font-size:15px;}
+.mcard_skin .invite_layer ul li.family_area .groom_mother {color:#4b4b4b; font-size:15px;}
+.mcard_skin .invite_layer ul li.family_area .bride {color:#4b4b4b; font-size:15px; font-weight:700;}
+.mcard_skin .invite_layer ul li.family_area .bride_father {color:#4b4b4b; font-size:15px;}
+.mcard_skin .invite_layer ul li.family_area .bride_mother {color:#4b4b4b; font-size:15px;}
+
+/*********/
+
+.mcard_skin .contact_layer {overflow:hidden;}
+.mcard_skin .contact_layer ul {}
+.mcard_skin .contact_layer ul li.title_area {width:100%; height:0px; background-repeat:no-repeat; background-position:center center; background-size:cover;}  /* �⺻ - height:100px; */
+.mcard_skin .contact_layer ul li.family_area {overflow:hidden; padding:30px 10px 40px;}
+.mcard_skin .contact_layer ul li.family_area .groom_area {float:left; width:-webkit-calc(50% - 1px); width:-moz-calc(50% - 1px); width:calc(50% - 1px); text-align:center;}
+.mcard_skin .contact_layer ul li.family_area .bride_area {float:right; width:50%; text-align:center;}
+.mcard_skin .contact_layer ul li.family_area > div:nth-last-child(2) {border-right:1px solid #efefef;}
+.mcard_skin .contact_layer ul li.family_area .area_type1 {float:none; overflow:hidden; width:100%; text-align:center;}
+.mcard_skin .contact_layer ul li.family_area .area_type2 {float:none; overflow:hidden; width:100%; text-align:center; padding:13px 0 0; border-right:0px solid #efefef}
+.mcard_skin .contact_layer ul li.family_area .groom_area .groom_image,
+.mcard_skin .contact_layer ul li.family_area .bride_area .bride_image {width:80px; height:80px; background-repeat:no-repeat; background-position:center center; background-size:cover; -webkit-border-radius:50%; -moz-border-radius:50%; border-radius:50%; margin:0 auto;}
+.mcard_skin .contact_layer ul li.family_area .groom_area .groom,
+.mcard_skin .contact_layer ul li.family_area .bride_area .bride {overflow:hidden; font-size:12px; line-height:16px; font-family:'NanumMyeongjoBold'; color:#444444;}
+.mcard_skin .contact_layer ul li.family_area .parents_area {overflow:hidden; width:110px; text-align:center; padding:24px 0 0; font-size:12px; line-height:100%; margin:0 auto;}
+.mcard_skin .contact_layer ul li.family_area .parents_area .parents_box {overflow:hidden; width:100%; margin:10px 0 0;}
+.mcard_skin .contact_layer ul li.family_area .parents_area .parents_box .parents_name_area {overflow:hidden; width:100%; padding:3px 0 0; font-size:14px; line-height:100%; font-family:'NanumMyeongjoExtraBold';}
+.mcard_skin .contact_layer ul li.family_area .parents_area .parents_box .parents_btn_area {overflow:hidden; width:54px; text-align:center; padding:7px 0 0; margin:0 auto;}
+.mcard_skin .contact_layer ul li.family_area .groom_area .groom em,
+.mcard_skin .contact_layer ul li.family_area .bride_area .bride em {padding:0 0 0 9px; font-size:14px; font-family:'NanumMyeongjoExtraBold';}
+.mcard_skin .contact_layer ul li.family_area .groom_area .groom span,
+.mcard_skin .contact_layer ul li.family_area .bride_area .bride span {font-size:14px; font-family:'NanumMyeongjoExtraBold';}
+.mcard_skin .contact_layer ul li.family_area .groom_btn_area,
+.mcard_skin .contact_layer ul li.family_area .bride_btn_area {overflow:hidden; width:70px; text-align:center; padding:7px 0 0; margin:0 auto;}
+.mcard_skin .contact_layer ul li.family_area .groom_btn,
+.mcard_skin .contact_layer ul li.family_area .bride_btn {float:left; width:30px; height:30px; background-color:#394353; background-image:url('icon_all.png'); background-repeat:no-repeat; background-size:200px 200px; background-position:0 -30px; -webkit-border-radius:50%; -moz-border-radius:50%; border-radius:50%; cursor:pointer;}
+.mcard_skin .contact_layer ul li.family_area .groom_btn_type1,
+.mcard_skin .contact_layer ul li.family_area .bride_btn_type1 {float:right; background-position:-30px -30px;}
+
+.mcard_skin .contact_layer ul li.family_area .groom_btn1,
+.mcard_skin .contact_layer ul li.family_area .bride_btn1 {float:left; width:22px; height:22px; background-color:#394353; background-image:url('icon_all.png'); background-repeat:no-repeat; background-size:200px 200px; background-position:-60px -30px; -webkit-border-radius:50%; -moz-border-radius:50%; border-radius:50%; cursor:pointer;}
+.mcard_skin .contact_layer ul li.family_area .groom_btn1_type1,
+.mcard_skin .contact_layer ul li.family_area .bride_btn1_type1 {float:right; margin-left:8px; background-position:-82px -30px;}
+
+.mcard_skin .contact_layer ul li.family_area .parents_btn_pad1 { margin-left:5px;}
+
+/*********/
+
+.mcard_skin .movie_layer {overflow:hidden; padding:30px 0 20px; background-color:#f5f5f5;}
+.mcard_skin .movie_layer ul {}
+.mcard_skin .movie_layer ul li.title_area {overflow:hidden; height:9px; margin:0 0 17px; background-image:url('/mcard/img/wed_skin1/movie_title.png'); background-repeat:no-repeat; background-position:center top; background-size:auto 9px;}
+.mcard_skin .movie_layer ul li.video_area {padding:0 17px;}
+.mcard_skin .movie_layer ul li.video_area .youtube_area {width:100%; padding-bottom:56%; position:relative; background-repeat:no-repeat, no-repeat; background-position:center center, center center; background-size:auto 17vw, cover;}
+.mcard_skin .movie_layer ul li.video_area .youtube_area iframe {width:100%; height:100%; position:absolute; left:0px; top:0px; right:0px; bottom:0px;}
+
+/*********/
+
+.mcard_skin .gallery_layer {overflow:hidden; padding:17px 17px 20px; background-color:#f5f5f5;}
+.mcard_skin .gallery_layer ul {}
+.mcard_skin .gallery_layer ul li.title_area {overflow:hidden; height:9px; margin:0 0 17px; background-image:url('/mcard/img/wed_skin1/gallery_title.png'); background-repeat:no-repeat; background-position:center top; background-size:auto 9px;}
+.mcard_skin .gallery_layer ul li.image_area {}
+.mcard_skin .gallery_layer ul li.image_area img {vertical-align:middle;}
+.mcard_skin .gallery_layer ul li.image_area .pic_area {float:left; width:33.3%; height:28.5vw; background-repeat:no-repeat; background-position:center center; background-size:cover; cursor:pointer;}
+.mcard_skin .gallery_layer ul li.image_area .pic_area img {display:none;}
+
+@media (min-width:481px) {
+  .mcard_skin .gallery_layer ul li.image_area .pic_area {float:left; width:100px; height:100px; background-repeat:no-repeat; background-position:center center; background-size:cover; cursor:pointer;}
+}
+
+/*********/
+
+.mcard_skin .location_layer {overflow:hidden; padding:40px 0 40px;}
+.mcard_skin .location_layer ul {}
+.mcard_skin .location_layer ul li.title_area {overflow:hidden; height:9px; margin:0 17px 17px; background-image:url('location_title.png'); background-repeat:no-repeat; background-position:center top; background-size:auto 9px;}
+.mcard_skin .location_layer ul li.map_area {width:100%;height:180px;}
+.mcard_skin .location_layer ul li.place_area {overflow:hidden; margin:20px 17px 0;}
+.mcard_skin .location_layer ul li.place_area .fl {float:left; padding:0 30px 0 0;}
+.mcard_skin .location_layer ul li.place_area .hall_day {color:#777777; font-size:13px; line-height:15px; font-weight:700;}
+.mcard_skin .location_layer ul li.place_area .hall_name {margin:3px 0 12px; color:#4b4b4b; font-size:16px; line-height:20px; letter-spacing:-1px; font-weight:700;}
+.mcard_skin .location_layer ul li.place_area .hall_address {color:#888888; font-size:13px; line-height:17px; font-weight:500;}
+.mcard_skin .location_layer ul li.place_area .hall_tel {margin:4px 0 0; color:#888888; font-size:13px; line-height:15px; font-weight:500;}
+.mcard_skin .location_layer ul li.place_area .hall_tel_btn {width:30px; height:30px; margin:4px 0 0; background-color:#cacaca; background-image:url('icon_all.png'); background-repeat:no-repeat; background-size:200px 200px; background-position:0 -30px; -webkit-border-radius:50%; -moz-border-radius:50%; border-radius:50%; cursor:pointer;}
+.mcard_skin .location_layer ul li.place_area .info {margin:21px 0 0}
+.mcard_skin .location_layer ul li.place_area .info dl {overflow:hidden; margin:0 0 16px;}
+.mcard_skin .location_layer ul li.place_area .info dt {overflow:hidden; padding:0 0 5px; margin:0 0 7px; color:#ef7d6c; font-size:13px; line-height:15px; font-weight:700; border-bottom:1px solid #f8f8f8}
+.mcard_skin .location_layer ul li.place_area .info dd {overflow:hidden; color:#666666; font-size:13px; line-height:17px; font-weight:500;}
+.mcard_skin .location_layer ul li.place_area .info .item_subway {}
+.mcard_skin .location_layer ul li.place_area .info .item_bus {}
+.mcard_skin .location_layer ul li.place_area .info .item_banquet {}
+.mcard_skin .location_layer ul li.place_area .info .item_other {}
+.mcard_skin .location_layer ul li.place_area .navi {overflow:hidden; clear:both; text-align:center; height:45px; margin:20px 0 0}
+.mcard_skin .location_layer ul li.place_area > .navi > ul > li {margin-right:20px;}
+.mcard_skin .location_layer ul li.place_area > .navi > ul > li,
+.mcard_skin .location_layer ul li.place_area > .navi > ul > li a {display:inline-block;}
+.mcard_skin .location_layer ul li.place_area > .navi > ul > li a {width:42px; height:45px; background-image:url('icon_all.png'); background-repeat:no-repeat; background-size:200px 200px; background-position:0 -70px; cursor:pointer;}
+.mcard_skin .location_layer ul li.place_area .navi li.btn_kakaonavi a {background-position:0 -70px;}
+.mcard_skin .location_layer ul li.place_area .navi li.btn_tmap a      {background-position:-50px -70px;}
+.mcard_skin .location_layer ul li.place_area .navi li.btn_navermap a  {background-position:-100px -70px;}
+.mcard_skin .location_layer ul li.place_area > .navi > ul > li:last-child {margin-right:0;}
+
+/*********/
+
+.mcard_skin .board_layer {overflow:hidden; padding:30px 17px 40px; background-color:#f5f5f5;}
+.mcard_skin .board_layer ul {}
+.mcard_skin .board_layer ul li.title_area {overflow:hidden; height:9px; margin:0 17px 17px; background-image:url('/mcard/img/wed_skin1/board_title.png'); background-repeat:no-repeat; background-position:center top; background-size:auto 9px;}
+.mcard_skin .board_layer ul li.board_area {}
+
+/*********/
+
+.mcard_skin .share_layer {overflow:hidden; padding:15px 0 15px;}
+.mcard_skin .share_layer ul li.title_area {overflow:hidden; height:0px; margin:0; background-image:url('/mcard/img/wed_skin1/sns_title.png'); background-repeat:no-repeat; background-position:center top; background-size:auto 9px;}
+.mcard_skin .share_layer ul li.sns_area {overflow:hidden; margin:0; height:30px;}
+
+/*********/

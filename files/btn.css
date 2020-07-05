@@ -1,0 +1,36 @@
+/* btn total */
+.btn_mcard {
+	display: inline-block;
+	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+	*display: inline;
+	vertical-align: middle;
+	margin: 0 0;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font:12px/100%;
+	-webkit-border-radius: .0em; 
+	-moz-border-radius: .0em;
+	border-radius: .0em;
+/* 	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,.08); */
+/* 	-moz-box-shadow: 0 1px 0 rgba(0,0,0,.08); */
+}
+.btn:hover {text-decoration:none;}
+.btn:active {position:relative; top:0;}
+
+
+.mcard_but1 {font-size:14px; line-height:16px; font-weight:bold; padding:7px 19px 6px; color:#ffffff; border:solid 1px #666666; background-color:#666666;}
+.mcard_but1:link, .mcard_skin .but1:hover {color:#ffffff;}
+
+.mcard_but2 {font-size:12px; line-height:14px; padding:6px 12px 5px; color:#555555; border:solid 1px #cccccc; background-color:#ffffff;}
+.mcard_but2:link, .mcard_skin .but2:hover {color:#555555;}
+
+.mcard_but3 {overflow:hidden; clear:both; text-align:center; font-size:12px; line-height:14px; margin:6px -1px 0; padding:8px 0 7px; color:#ffffff; border:solid 1px #c7c7c7; background-color:#cccccc; cursor:pointer;}
+.mcard_but3:link, .mcard_skin .but3:hover {color:#ffffff;}
+
+.mcard_but4 {overflow:hidden; clear:both; text-align:center; font-size:13px; line-height:16px; padding:12px 12px 12px; color:#ffffff; border:solid 1px #909090; background-color:#909090; cursor:pointer;}
+.mcard_but4:link, .mcard_skin .but4:hover {color:#ffffff;}
+
+.mcard_but5 {overflow:hidden; clear:both; text-align:center; font-size:13px; line-height:16px; padding:12px 12px 12px; color:#555555; border:solid 1px #cccccc; background-color:#ffffff; cursor:pointer;}
+.mcard_but5:link, .mcard_skin .but5:hover {color:#555555;}
