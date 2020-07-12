@@ -38,7 +38,7 @@ span.tel_icon {
     width: 40px;
     height: 40px;
     background-size: 25px 25px;
-    background-image: url("img/phone-white.svg");
+    background-image: url("icon/phone-white.svg");
     background-repeat: no-repeat;
     background-color: black;
     background-position: center;
@@ -50,7 +50,7 @@ span.sms_icon {
     width: 40px;
     height: 40px;
     background-size: 25px 25px;
-    background-image: url("img/sms-white.svg");
+    background-image: url("icon/sms-white.svg");
     background-repeat: no-repeat;
     background-color: black;
     background-position: center;
