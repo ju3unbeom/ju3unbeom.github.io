@@ -64,3 +64,12 @@ footer.copyright {
     background-color: black;
     color: white;
 }
+
+.my-gallery figure {
+    margin: 0;
+    display: inline-block;
+}
+
+.my-gallery img {
+    width: 130px;
+}
