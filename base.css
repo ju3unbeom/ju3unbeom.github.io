@@ -10,36 +10,86 @@ hr {
     width: 100px;
 }
 
-h1, h2, h3 {
+p.sub_title {
     font-family: 'Song Myung', serif;
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 30px;
+}
+
+p.character {
+    font-family: 'Song Myung', serif;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-bottom: 0;
+}
+
+p.parents {
+    font-family: 'Song Myung', serif;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 5px;
+}
+
+p.bio {
+    font-size: large;
 }
 
 img {
     max-width: 100%;
 }
 
-p.sub_title {
-    font-size: 20px;
-    margin-bottom: 40px;
-}
-
 img.profile {
+    margin-top: 60px;
     width: 250px;
     border-radius: 100%;
 }
 
 table {
-    font-family: 'Song Myung', serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
     max-width: 666px;
 }
 
 table.title {
-    margin-top: 30px;
-    margin-bottom: 90px;
+    height: 140px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Song Myung', serif;
     font-size: x-large;
 }
 
+table.contact {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    font-family: 'Song Myung', serif;
+}
+
+td.box {
+    width: 100px;
+    font-weight: bold;
+    border: 5px solid;
+}
+
+p.main_text {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-family: 'Song Myung', serif;
+    font-size: 15pt;
+}
+
+p.sub_text {
+    font-size: 15pt;
+}
+
+a.map {
+    font-size: 16pt;
+}
+
 span.tel_icon {
+    margin-top: 10px;
     width: 40px;
     height: 40px;
     background-size: 25px 25px;
