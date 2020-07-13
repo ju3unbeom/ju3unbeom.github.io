@@ -61,7 +61,8 @@ table.title {
 }
 
 table.contact {
-    width: 400px;
+    min-width: 300px;
+    max-width: 400px;
     font-family: 'Song Myung', serif;
     margin-bottom: 30px;
 }
