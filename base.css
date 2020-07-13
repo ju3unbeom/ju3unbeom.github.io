@@ -134,3 +134,31 @@ footer.copyright {
 .my-gallery img {
     width: 130px;
 }
+
+/* yeon-sung-regular - latin_korean */
+@font-face {
+    font-family: 'Yeon Sung';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/yeon-sung-v8-latin_korean-regular.eot'); /* IE9 Compat Modes */
+    src: local('Yeon Sung Regular'), local('YeonSung-Regular'),
+    url('fonts/yeon-sung-v8-latin_korean-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/yeon-sung-v8-latin_korean-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('fonts/yeon-sung-v8-latin_korean-regular.woff') format('woff'), /* Modern Browsers */
+    url('fonts/yeon-sung-v8-latin_korean-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/yeon-sung-v8-latin_korean-regular.svg#YeonSung') format('svg'); /* Legacy iOS */
+}
+
+/* song-myung-regular - latin_korean */
+@font-face {
+    font-family: 'Song Myung';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/song-myung-v8-latin_korean-regular.eot'); /* IE9 Compat Modes */
+    src: local('Song Myung Regular'), local('SongMyung-Regular'),
+    url('fonts/song-myung-v8-latin_korean-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/song-myung-v8-latin_korean-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('fonts/song-myung-v8-latin_korean-regular.woff') format('woff'), /* Modern Browsers */
+    url('fonts/song-myung-v8-latin_korean-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/song-myung-v8-latin_korean-regular.svg#SongMyung') format('svg'); /* Legacy iOS */
+}
