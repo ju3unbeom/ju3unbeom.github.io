@@ -61,10 +61,9 @@ table.title {
 }
 
 table.contact {
-    margin-left: auto;
-    margin-right: auto;
     width: 400px;
     font-family: 'Song Myung', serif;
+    margin-bottom: 30px;
 }
 
 td.box {
@@ -102,6 +101,7 @@ span.tel_icon {
 }
 
 span.sms_icon {
+    margin-top: 10px;
     width: 40px;
     height: 40px;
     background-size: 25px 25px;
