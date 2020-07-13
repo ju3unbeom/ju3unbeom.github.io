@@ -1,13 +1,17 @@
 body {
     margin: 0;
     text-align: center;
-    font-family: "Nanum Gothic", serif;
+    font-family: 'Yeon Sung', cursive;
 }
 
 hr {
     margin-top: 100px;
     border: 2px solid;
     width: 100px;
+}
+
+h2 {
+    font-family: 'Song Myung', serif;
 }
 
 img {
