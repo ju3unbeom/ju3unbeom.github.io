@@ -80,6 +80,10 @@ p.main_text {
     font-size: 15pt;
 }
 
+p.address {
+    font-family: 'Song Myung', serif;
+}
+
 p.sub_text {
     font-size: 15pt;
 }
