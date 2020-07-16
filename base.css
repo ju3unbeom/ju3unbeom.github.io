@@ -117,6 +117,13 @@ span.sms_icon {
     display: inline-block;
 }
 
+img.kakao {
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
 footer.copyright {
     padding-top: 15px;
     padding-bottom: 15px;
