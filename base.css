@@ -1,7 +1,8 @@
 body {
-    margin: 0;
+    margin: 0 auto;
     text-align: center;
     font-family: 'Yeon Sung', cursive;
+    max-width: 666px;
 }
 
 hr {
@@ -49,7 +50,6 @@ table {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    max-width: 666px;
 }
 
 table.title {
