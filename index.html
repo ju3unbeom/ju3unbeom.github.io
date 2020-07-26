@@ -185,6 +185,17 @@
     </tbody>
 </table>
 
+<p>
+    신랑 강은범 :
+    <a href="#" onClick="copyToClipboard('신한은행 110-273-447721');alert('클립보드에 복사했습니다.');return false;">
+        신한은행 110-273-447721
+    </a><br>
+    신부 이주은 :
+    <a href="#" onClick="copyToClipboard('우리은행 1002-450-588737');alert('클립보드에 복사했습니다.');return false;">
+        우리은행 1002-450-588737
+    </a>
+</p>
+
 <footer class="copyright">Created by Eunbeom &amp; Jueun</footer>
 
 <!-- Root element of PhotoSwipe. Must have class pswp. -->
@@ -245,6 +256,17 @@
     </div>
 
 </div>
+
+<script>
+    function copyToClipboard(val) {
+        var dummy = document.createElement("textarea");
+        document.body.appendChild(dummy);
+        dummy.value = val;
+        dummy.select();
+        document.execCommand("copy");
+        document.body.removeChild(dummy);
+    }
+</script>
 
 <script src="photoswipe/photoswipe.min.js"></script>
 <script src="photoswipe/photoswipe-ui-default.min.js"></script>
