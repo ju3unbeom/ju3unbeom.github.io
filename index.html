@@ -187,12 +187,12 @@
 
 <p>
     신랑 강은범 :
-    <a href="#" onClick="copyToClipboard('신한은행 110-273-447721');alert('클립보드에 복사했습니다.');return false;">
-        신한은행 110-273-447721
+    <a href="#" onClick="copyToClipboard('신한 110-273-447721');return false;">
+        신한 110-273-447721
     </a><br>
     신부 이주은 :
-    <a href="#" onClick="copyToClipboard('우리은행 1002-450-588737');alert('클립보드에 복사했습니다.');return false;">
-        우리은행 1002-450-588737
+    <a href="#" onClick="copyToClipboard('우리 1002-450-588737');return false;">
+        우리 1002-450-588737
     </a>
 </p>
 
@@ -265,6 +265,7 @@
         dummy.select();
         document.execCommand("copy");
         document.body.removeChild(dummy);
+        alert('클립보드에 복사했습니다.');
     }
 </script>
 
