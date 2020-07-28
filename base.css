@@ -99,7 +99,7 @@ span.tel_icon {
     background-size: 25px 25px;
     background-image: url("icon/phone-white.svg");
     background-repeat: no-repeat;
-    background-color: black;
+    background-color: #333333;
     background-position: center;
     border-radius: 100%;
     display: inline-block;
@@ -112,7 +112,7 @@ span.sms_icon {
     background-size: 25px 25px;
     background-image: url("icon/sms-white.svg");
     background-repeat: no-repeat;
-    background-color: black;
+    background-color: #333333;
     background-position: center;
     border-radius: 100%;
     display: inline-block;
@@ -133,7 +133,7 @@ p.account {
 footer.copyright {
     padding-top: 15px;
     padding-bottom: 15px;
-    background-color: black;
+    background-color: #333333;
     color: white;
     font-family: 'Song Myung', serif;
 }
