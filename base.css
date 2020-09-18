@@ -147,6 +147,20 @@ footer.copyright {
     width: 130px;
 }
 
+.content {
+    position: relative;
+    padding-top: 56.3%;
+    width: 100%;
+}
+
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 /* yeon-sung-regular - latin_korean */
 @font-face {
     font-family: 'Yeon Sung';
